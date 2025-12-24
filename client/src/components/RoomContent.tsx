@@ -25,6 +25,7 @@ const RoomContent: React.FC = () => {
                     Authorization: `Bearer ${localStorage.getItem("token")}`,
                 },
             });
+            console.log(response)
         } catch (error) {
             console.error("GET ROOM ERROR:", error);
         }
