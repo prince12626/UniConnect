@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+            font-family: font;
+            src: url("/font.ttf");
+}
+
+body{
+            font-family: font;
+}
+
+.noscroll{
+            overflow: hidden !important;
+}
+
+::-webkit-scrollbar{
+            display: none;
+}
